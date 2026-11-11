@@ -9,6 +9,7 @@
   - With Convex: Send emails through Cloudflare Email Service through API using their library [cloudflare](https://www.npmjs.com/package/cloudflare) ([docs](https://github.com/cloudflare/cloudflare-typescript/blob/main/src/resources/email-sending/api.md)).
 - When you want to use Cloudflare D1 then always use Drizzle ORM for working with SQL.
 - Access Cloudflare bindings via `import { env } from "cloudflare:workers"`. After changing `wrangler.jsonc` run `pnpm run cf-typegen`.
+- For local environment variables and secrets use `.env`, never create `.dev.vars`.
 - To interact with Convex use CLI.
 
 ## Development
