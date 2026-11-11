@@ -1,0 +1,16 @@
+# Ignore everything recursively
+*
+
+# Only format the following files
+!*.ts
+!*.tsx
+!*.css
+!*.astro
+!*.mjs
+
+# Other
+src/components/ui/**/*
+worker-configuration.d.ts
+
+# Check subdirectories too
+!*/
